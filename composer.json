@@ -1,0 +1,23 @@
+{
+    "name": "dunaev/adserver-engine",
+    "description": "engine for run service",
+    "type": "library",
+    "require": {
+        "symfony/http-foundation": "^3.3",
+        "symfony/routing": "^3.3",
+        "symfony/http-kernel": "^3.3",
+        "psr/container": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Alexander Dunaev",
+            "email": "alexander.dunaev@together.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "AdServer\\Engine\\": "src"
+        }
+    }
+}
